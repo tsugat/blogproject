@@ -25,7 +25,9 @@ SECRET_KEY = '9vsxlmeq-mtg@m1^3g9e*@d10p6tt%6&2xjrz71^8ck5^ds$0i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['localhost', 'tsugat.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
