@@ -23,11 +23,18 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9vsxlmeq-mtg@m1^3g9e*@d10p6tt%6&2xjrz71^8ck5^ds$0i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = False
 
+<<<<<<< HEAD
 #ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = ['localhost', 'tsugat.pythonanywhere.com']
 ALLOWED_HOSTS = ['*']
+=======
+ALLOWED_HOSTS = [
+    'tsugat.pythonanywhere.com'
+    ]
+>>>>>>> a895e7f1015d8c9223a90a4ca2316d48d402527c
 
 
 # Application definition
@@ -62,7 +69,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
 #        'DIRS': [],
-        'DIRS': [os.path.join(BASE_DIR, 'templates')], 
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
