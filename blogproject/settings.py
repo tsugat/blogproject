@@ -26,6 +26,9 @@ SECRET_KEY = '9vsxlmeq-mtg@m1^3g9e*@d10p6tt%6&2xjrz71^8ck5^ds$0i'
 DEBUG = True
 #DEBUG = False
 ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['tsugat.pythonanywhere.com']
+
+
 
 # Application definition
 
