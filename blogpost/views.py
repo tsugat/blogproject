@@ -29,3 +29,5 @@ class BlogUpdate(UpdateView):
     model=BlogModel
     fields = ('title', 'content', 'category')
     success_url = reverse_lazy('list')
+
+
